@@ -169,6 +169,8 @@
 				<spring:message code="probe.jsp.icons.credit"/>
 			</p>
 			<div id="locales">
+				<a href="?<probe:addQueryParam param='lang' value='cn'/>"><img
+						src="<c:url value='/flags/cn.gif'/>" alt="CN" /></a>
 				<a href="?<probe:addQueryParam param='lang' value='en'/>"><img
 						src="<c:url value='/flags/gb.gif'/>" alt="EN" /></a>
 				<a href="?<probe:addQueryParam param='lang' value='ru'/>"><img
